@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ear Testing Website</title>
+</head>
+<body>
+
+    <center>
+
+        <h1>Ear Testing Website</h1>
+
+    <hr>
+
+    <h2>Round 1</h2>
+
+    <button onclick="playsound()" class="playsoundbtn">Play Sound</button>
+    <audio id="sound" src="sound.mp3"></audio>
+
+    <h4 id="info">When the sound stops playing, you need to repeat the sound in your own voice by clicking on the repeat sound button.</h4>
+
+    <button id="repeatsoundbtn" class="playsoundbtn" onclick="repeatsound()">Repeat Sound</button>
+
+    <h4>This is what you said: </h4>
+    <textarea id="box1" readonly="true"></textarea>
+
+    <hr>
+
+    <h4 id="result"></h4>
+
+</center>
+
+<script src="round1.js"></script>  
+
+</body>
+</html>
