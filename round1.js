@@ -1,4 +1,5 @@
 function playsound() {
+    document.getElementById("sound").volume = 0.7;
     document.getElementById("sound").play();
 }
 
